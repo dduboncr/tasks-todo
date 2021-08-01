@@ -1,0 +1,150 @@
+.code-box {
+	width: 1399px;
+	height: 698px;
+	left: 24px;
+	top: 139px;
+	background: #fcfcfc;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 40px;
+}
+
+.task-container {
+	height: 509px;
+	width: 410px;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+	background: #ffffff;
+	box-shadow: 0px 2px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+}
+
+.task-container-title {
+	left: -2.44%;
+	right: 0%;
+	top: 3.14%;
+	bottom: 90.77%;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 32px;
+	line-height: 37px;
+	text-align: center;
+
+	color: #000000;
+}
+
+.task {
+	border-spacing: 1em 0.5em;
+	padding: 0 2em 1em 0;
+	border: 1px solid rgb(0, 0, 0);
+	padding: 20px;
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+
+	background: #ffffff;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 12px;
+}
+
+.arrow-left-button {
+	/* Rectangle 5 */
+	padding: 10px;
+	height: 70px;
+	width: 52px;
+	left: 3.3%;
+	right: 82.42%;
+	top: 16.82%;
+	bottom: 17.76%;
+
+	background: #ff9e9e;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+}
+
+.arrow-right-button {
+	height: 70px;
+	width: 52px;
+
+	left: 81.59%;
+	right: 4.12%;
+	top: 16.82%;
+	bottom: 17.76%;
+
+	background: #218d1f;
+	box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 8px;
+}
+
+.text-todo {
+	/* Mow The lawn */
+
+	width: 364px;
+	height: 26px;
+
+	left: 0%;
+	right: 0%;
+	top: 37.38%;
+	bottom: 38.32%;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 26px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #000000;
+}
+
+.add-task-input {
+	height: 60px;
+	width: 287px;
+
+	left: 0%;
+	right: 0%;
+	top: 0%;
+	bottom: 0%;
+
+	background: #ffffff;
+	border: 1px solid #000000;
+	box-sizing: border-box;
+}
+
+.add-task-button {
+	width: 91px;
+	height: 60px;
+	left: 319px;
+	top: 0px;
+
+	background: #0066ff;
+	color: white;
+	border-radius: 8px;
+}
+
+.task-text-content {
+	position: relative;
+	left: 0%;
+	right: 0%;
+	top: 37.38%;
+	bottom: 38.32%;
+
+	font-family: Roboto;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 22px;
+	line-height: 26px;
+	/* identical to box height */
+
+	text-align: center;
+
+	color: #000000;
+}
