@@ -3,7 +3,7 @@ import TaskContainer from './components/TaskContainer';
 import { TaskContext } from './contexts';
 import { Task } from './types';
 
-export function ChallengeComponent(props: any) {
+export function ChallengeComponent(_props: any) {
 	const { tasks, updateTasks } = useContext(TaskContext);
 
 	const [newTask, setNewTask] = useState<Task>({} as Task);
@@ -21,7 +21,6 @@ export function ChallengeComponent(props: any) {
 			status: 'TODO',
 			content: event.currentTarget.value,
 		});
-		console.log(newTask);
 	};
 
 	return (
