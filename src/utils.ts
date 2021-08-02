@@ -17,6 +17,6 @@ export const getStatus = (
 	return statusMapper[nextStatus];
 };
 
-export const increase = (index: number) => (index + 1 > 2 ? index : index + 1);
+export const moveForward = (index: number) => (index + 1 > 2 ? index : index + 1);
 
-export const decrease = (index: number) => (index - 1 < 0 ? index : index - 1);
+export const moveBackwards = (index: number) => (index - 1 < 0 ? index : index - 1);
